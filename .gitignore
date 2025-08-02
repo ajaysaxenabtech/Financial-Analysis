@@ -1,0 +1,27 @@
+
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Environment files
+.venv/
+.env
+*.env
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Data
+data/
+*.csv
+*.xlsx
+
+# IDEs
+.vscode/
+.idea/
