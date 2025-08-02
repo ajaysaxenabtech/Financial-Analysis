@@ -1,0 +1,21 @@
+
+financial-analysis/           # root of the git repo
+├── pyproject.toml            # or setup.cfg / setup.py
+├── README.md                 # project vision + quick-start
+├── .env-example              # creds / API keys template
+├── financial_analysis/       # importable package
+│   ├── __init__.py
+│   ├── core/                 # shared plumbing
+│   ├── ethics/
+│   ├── quant_methods/
+│   ├── economics/
+│   ├── fsa/                  # Financial Statement Analysis
+│   ├── corporate_issuers/
+│   ├── equity/
+│   ├── fixed_income/
+│   ├── derivatives/
+│   ├── alternatives/
+│   └── portfolio/
+├── tests/                    # pytest unit tests
+├── notebooks/                # optional Jupyter scratchpads
+└── docs/                     # mkdocs or sphinx
